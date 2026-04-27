@@ -1,0 +1,762 @@
+[
+    {
+        "id": 1,
+        "segment_name": "Residential",
+        "estate_title": "Residential Elite 1",
+        "image": "https://example.com/images/residential_1.jpg",
+        "description": "A premier residential property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$120000",
+        "status": "rent",
+        "area": "1450 sq ft",
+        "location": "District 1, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security",
+            "Balcony",
+            "Smart Home System"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 1,
+        "segment_name": "Residential",
+        "estate_title": "Residential Elite 2",
+        "image": "https://example.com/images/residential_2.jpg",
+        "description": "A premier residential property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$240000",
+        "status": "sale",
+        "area": "1700 sq ft",
+        "location": "District 2, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security",
+            "Balcony",
+            "Smart Home System"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 1,
+        "segment_name": "Residential",
+        "estate_title": "Residential Elite 3",
+        "image": "https://example.com/images/residential_3.jpg",
+        "description": "A premier residential property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$360000",
+        "status": "rent",
+        "area": "1950 sq ft",
+        "location": "District 3, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security",
+            "Balcony",
+            "Smart Home System"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 1,
+        "segment_name": "Residential",
+        "estate_title": "Residential Elite 4",
+        "image": "https://example.com/images/residential_4.jpg",
+        "description": "A premier residential property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$480000",
+        "status": "sale",
+        "area": "2200 sq ft",
+        "location": "District 4, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security",
+            "Balcony",
+            "Smart Home System"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 1,
+        "segment_name": "Residential",
+        "estate_title": "Residential Elite 5",
+        "image": "https://example.com/images/residential_5.jpg",
+        "description": "A premier residential property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$600000",
+        "status": "rent",
+        "area": "2450 sq ft",
+        "location": "District 5, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security",
+            "Balcony",
+            "Smart Home System"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 2,
+        "segment_name": "Commercial",
+        "estate_title": "Commercial Elite 1",
+        "image": "https://example.com/images/commercial_1.jpg",
+        "description": "A premier commercial property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$120000",
+        "status": "rent",
+        "area": "1450 sq ft",
+        "location": "District 1, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security",
+            "Conference Room",
+            "High-speed Elevator"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 2,
+        "segment_name": "Commercial",
+        "estate_title": "Commercial Elite 2",
+        "image": "https://example.com/images/commercial_2.jpg",
+        "description": "A premier commercial property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$240000",
+        "status": "sale",
+        "area": "1700 sq ft",
+        "location": "District 2, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security",
+            "Conference Room",
+            "High-speed Elevator"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 2,
+        "segment_name": "Commercial",
+        "estate_title": "Commercial Elite 3",
+        "image": "https://example.com/images/commercial_3.jpg",
+        "description": "A premier commercial property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$360000",
+        "status": "rent",
+        "area": "1950 sq ft",
+        "location": "District 3, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security",
+            "Conference Room",
+            "High-speed Elevator"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 2,
+        "segment_name": "Commercial",
+        "estate_title": "Commercial Elite 4",
+        "image": "https://example.com/images/commercial_4.jpg",
+        "description": "A premier commercial property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$480000",
+        "status": "sale",
+        "area": "2200 sq ft",
+        "location": "District 4, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security",
+            "Conference Room",
+            "High-speed Elevator"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 2,
+        "segment_name": "Commercial",
+        "estate_title": "Commercial Elite 5",
+        "image": "https://example.com/images/commercial_5.jpg",
+        "description": "A premier commercial property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$600000",
+        "status": "rent",
+        "area": "2450 sq ft",
+        "location": "District 5, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security",
+            "Conference Room",
+            "High-speed Elevator"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 3,
+        "segment_name": "Land",
+        "estate_title": "Land Elite 1",
+        "image": "https://example.com/images/land_1.jpg",
+        "description": "A premier land property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$45000",
+        "status": "rent",
+        "area": "1450 sq ft",
+        "location": "District 1, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 3,
+        "segment_name": "Land",
+        "estate_title": "Land Elite 2",
+        "image": "https://example.com/images/land_2.jpg",
+        "description": "A premier land property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$90000",
+        "status": "sale",
+        "area": "1700 sq ft",
+        "location": "District 2, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 3,
+        "segment_name": "Land",
+        "estate_title": "Land Elite 3",
+        "image": "https://example.com/images/land_3.jpg",
+        "description": "A premier land property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$135000",
+        "status": "rent",
+        "area": "1950 sq ft",
+        "location": "District 3, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 3,
+        "segment_name": "Land",
+        "estate_title": "Land Elite 4",
+        "image": "https://example.com/images/land_4.jpg",
+        "description": "A premier land property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$180000",
+        "status": "sale",
+        "area": "2200 sq ft",
+        "location": "District 4, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 3,
+        "segment_name": "Land",
+        "estate_title": "Land Elite 5",
+        "image": "https://example.com/images/land_5.jpg",
+        "description": "A premier land property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$225000",
+        "status": "rent",
+        "area": "2450 sq ft",
+        "location": "District 5, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 4,
+        "segment_name": "Industrial",
+        "estate_title": "Industrial Elite 1",
+        "image": "https://example.com/images/industrial_1.jpg",
+        "description": "A premier industrial property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$120000",
+        "status": "rent",
+        "area": "1450 sq ft",
+        "location": "District 1, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 4,
+        "segment_name": "Industrial",
+        "estate_title": "Industrial Elite 2",
+        "image": "https://example.com/images/industrial_2.jpg",
+        "description": "A premier industrial property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$240000",
+        "status": "sale",
+        "area": "1700 sq ft",
+        "location": "District 2, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 4,
+        "segment_name": "Industrial",
+        "estate_title": "Industrial Elite 3",
+        "image": "https://example.com/images/industrial_3.jpg",
+        "description": "A premier industrial property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$360000",
+        "status": "rent",
+        "area": "1950 sq ft",
+        "location": "District 3, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 4,
+        "segment_name": "Industrial",
+        "estate_title": "Industrial Elite 4",
+        "image": "https://example.com/images/industrial_4.jpg",
+        "description": "A premier industrial property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$480000",
+        "status": "sale",
+        "area": "2200 sq ft",
+        "location": "District 4, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 4,
+        "segment_name": "Industrial",
+        "estate_title": "Industrial Elite 5",
+        "image": "https://example.com/images/industrial_5.jpg",
+        "description": "A premier industrial property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$600000",
+        "status": "rent",
+        "area": "2450 sq ft",
+        "location": "District 5, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 5,
+        "segment_name": "Speciality",
+        "estate_title": "Speciality Elite 1",
+        "image": "https://example.com/images/speciality_1.jpg",
+        "description": "A premier speciality property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$120000",
+        "status": "rent",
+        "area": "1450 sq ft",
+        "location": "District 1, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 5,
+        "segment_name": "Speciality",
+        "estate_title": "Speciality Elite 2",
+        "image": "https://example.com/images/speciality_2.jpg",
+        "description": "A premier speciality property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$240000",
+        "status": "sale",
+        "area": "1700 sq ft",
+        "location": "District 2, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 5,
+        "segment_name": "Speciality",
+        "estate_title": "Speciality Elite 3",
+        "image": "https://example.com/images/speciality_3.jpg",
+        "description": "A premier speciality property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$360000",
+        "status": "rent",
+        "area": "1950 sq ft",
+        "location": "District 3, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 5,
+        "segment_name": "Speciality",
+        "estate_title": "Speciality Elite 4",
+        "image": "https://example.com/images/speciality_4.jpg",
+        "description": "A premier speciality property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$480000",
+        "status": "sale",
+        "area": "2200 sq ft",
+        "location": "District 4, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 5,
+        "segment_name": "Speciality",
+        "estate_title": "Speciality Elite 5",
+        "image": "https://example.com/images/speciality_5.jpg",
+        "description": "A premier speciality property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$600000",
+        "status": "rent",
+        "area": "2450 sq ft",
+        "location": "District 5, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 6,
+        "segment_name": "Luxury",
+        "estate_title": "Luxury Elite 1",
+        "image": "https://example.com/images/luxury_1.jpg",
+        "description": "A premier luxury property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$120000",
+        "status": "rent",
+        "area": "1450 sq ft",
+        "location": "District 1, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security",
+            "Balcony",
+            "Smart Home System"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 6,
+        "segment_name": "Luxury",
+        "estate_title": "Luxury Elite 2",
+        "image": "https://example.com/images/luxury_2.jpg",
+        "description": "A premier luxury property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$240000",
+        "status": "sale",
+        "area": "1700 sq ft",
+        "location": "District 2, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security",
+            "Balcony",
+            "Smart Home System"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 6,
+        "segment_name": "Luxury",
+        "estate_title": "Luxury Elite 3",
+        "image": "https://example.com/images/luxury_3.jpg",
+        "description": "A premier luxury property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$360000",
+        "status": "rent",
+        "area": "1950 sq ft",
+        "location": "District 3, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security",
+            "Balcony",
+            "Smart Home System"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 6,
+        "segment_name": "Luxury",
+        "estate_title": "Luxury Elite 4",
+        "image": "https://example.com/images/luxury_4.jpg",
+        "description": "A premier luxury property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$480000",
+        "status": "sale",
+        "area": "2200 sq ft",
+        "location": "District 4, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security",
+            "Balcony",
+            "Smart Home System"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 6,
+        "segment_name": "Luxury",
+        "estate_title": "Luxury Elite 5",
+        "image": "https://example.com/images/luxury_5.jpg",
+        "description": "A premier luxury property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$600000",
+        "status": "rent",
+        "area": "2450 sq ft",
+        "location": "District 5, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security",
+            "Balcony",
+            "Smart Home System"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 7,
+        "segment_name": "Government & Public",
+        "estate_title": "Government & Public Elite 1",
+        "image": "https://example.com/images/government_&_public_1.jpg",
+        "description": "A premier government & public property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$120000",
+        "status": "rent",
+        "area": "1450 sq ft",
+        "location": "District 1, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 7,
+        "segment_name": "Government & Public",
+        "estate_title": "Government & Public Elite 2",
+        "image": "https://example.com/images/government_&_public_2.jpg",
+        "description": "A premier government & public property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$240000",
+        "status": "sale",
+        "area": "1700 sq ft",
+        "location": "District 2, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 7,
+        "segment_name": "Government & Public",
+        "estate_title": "Government & Public Elite 3",
+        "image": "https://example.com/images/government_&_public_3.jpg",
+        "description": "A premier government & public property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$360000",
+        "status": "rent",
+        "area": "1950 sq ft",
+        "location": "District 3, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 7,
+        "segment_name": "Government & Public",
+        "estate_title": "Government & Public Elite 4",
+        "image": "https://example.com/images/government_&_public_4.jpg",
+        "description": "A premier government & public property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$480000",
+        "status": "sale",
+        "area": "2200 sq ft",
+        "location": "District 4, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 7,
+        "segment_name": "Government & Public",
+        "estate_title": "Government & Public Elite 5",
+        "image": "https://example.com/images/government_&_public_5.jpg",
+        "description": "A premier government & public property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$600000",
+        "status": "rent",
+        "area": "2450 sq ft",
+        "location": "District 5, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 8,
+        "segment_name": "Hospitality",
+        "estate_title": "Hospitality Elite 1",
+        "image": "https://example.com/images/hospitality_1.jpg",
+        "description": "A premier hospitality property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$120000",
+        "status": "rent",
+        "area": "1450 sq ft",
+        "location": "District 1, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security",
+            "Reception Desk",
+            "Housekeeping"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 8,
+        "segment_name": "Hospitality",
+        "estate_title": "Hospitality Elite 2",
+        "image": "https://example.com/images/hospitality_2.jpg",
+        "description": "A premier hospitality property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$240000",
+        "status": "sale",
+        "area": "1700 sq ft",
+        "location": "District 2, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security",
+            "Reception Desk",
+            "Housekeeping"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 8,
+        "segment_name": "Hospitality",
+        "estate_title": "Hospitality Elite 3",
+        "image": "https://example.com/images/hospitality_3.jpg",
+        "description": "A premier hospitality property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$360000",
+        "status": "rent",
+        "area": "1950 sq ft",
+        "location": "District 3, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security",
+            "Reception Desk",
+            "Housekeeping"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 8,
+        "segment_name": "Hospitality",
+        "estate_title": "Hospitality Elite 4",
+        "image": "https://example.com/images/hospitality_4.jpg",
+        "description": "A premier hospitality property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$480000",
+        "status": "sale",
+        "area": "2200 sq ft",
+        "location": "District 4, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security",
+            "Reception Desk",
+            "Housekeeping"
+        ],
+        "view_property_button": "View Property"
+    },
+    {
+        "id": 8,
+        "segment_name": "Hospitality",
+        "estate_title": "Hospitality Elite 5",
+        "image": "https://example.com/images/hospitality_5.jpg",
+        "description": "A premier hospitality property offering exceptional quality and modern features in a sought-after location.",
+        "price": "$600000",
+        "status": "rent",
+        "area": "2450 sq ft",
+        "location": "District 5, Metropolitan Area",
+        "facilities": [
+            "Modern Kitchen",
+            "Central Heating",
+            "Parking Space",
+            "Security",
+            "Reception Desk",
+            "Housekeeping"
+        ],
+        "view_property_button": "View Property"
+    }
+]

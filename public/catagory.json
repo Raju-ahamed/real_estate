@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "category": "Residential"
+    },
+    {
+        "id": 2,
+        "category": "Commercial"
+    },
+    {
+        "id": 3,
+        "category": "Land"
+    },
+    {
+        "id": 4,
+        "category": "Industrial"
+    },
+    {
+        "id": 5,
+        "category": "Speciality"
+    },
+    {
+        "id": 6,
+        "category": "Luxury"
+    },
+    {
+        "id": 7,
+        "category": "Government & Public"
+    },
+    {
+        "id": 8,
+        "category": "Hospitality"
+    }
+]
