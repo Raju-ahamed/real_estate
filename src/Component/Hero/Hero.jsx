@@ -1,11 +1,22 @@
-import img from '../../assets/realstate1.jpg'
+import { useEffect, useState } from 'react';
+import img1 from '../../assets/realstate1.jpg'
+import img2 from '../../assets/realstate2.jpg'
+import img3 from '../../assets/realstate3.jpg'
 const Hero = () => {
+    const images = [img1, img2, img3];
+    const [currentImg, setCurrentImg] = useState(0);
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentImg(prevImg => prevImg === images.length - 1 ? 0 : prevImg + 1);
+        }, 3000);
+        return () => clearInterval(interval);
+    }, [images.length])
     return (
         <div>
             <div
                 className="hero min-h-screen h-10"
                 style={{
-                    backgroundImage: `url('${img}')`,
+                    backgroundImage: `url('${images[currentImg]}')`,
                 }}
             >
                 <div className="hero-overlay"></div>
@@ -13,10 +24,30 @@ const Hero = () => {
                     <div className="max-w-md">
                         <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
                         <p className="mb-5">
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                            quasi. In deleniti eaque aut repudiandae et a id nisi.
+                            Welcome to a new era of real estate. At the intersection of design and comfort, we curate a premier collection of residences tailored to your lifestyle. Whether you are seeking a minimalist urban loft or a sprawling estate, our mission is to connect you with spaces that inspire. Discover your next chapter with a partner who understands that a home is more than just a property—it’s a sanctuary.
                         </p>
-                        <button className="btn btn-primary">Get Started</button>
+                        <button className="btn bg-red-950">Find Your Home</button>
+                    </div>
+                    <div className="bg-white/10 backdrop-blur-md p-10 rounded-2xl border border-white/20 shadow-2xl">
+                        <fieldset className="fieldset">
+                            <label className="label text-white">Email</label>
+                            <input
+                                type="email"
+                                className="input bg-white/20 border-white/30 text-white placeholder:text-gray-300"
+                                placeholder="Email"
+                            />
+                            <label className="label text-white">Password</label>
+                            <input
+                                type="password"
+                                className="input bg-white/20 border-white/30 text-white placeholder:text-gray-300"
+                                placeholder="Password"
+                            />
+                            <div>
+                                <a className="link link-hover text-sm text-gray-200">Forgot password?</a>
+                            </div>
+
+                            <button className="btn bg-red-950 mt-4 w-full">Login</button>
+                        </fieldset>
                     </div>
                 </div>
             </div>

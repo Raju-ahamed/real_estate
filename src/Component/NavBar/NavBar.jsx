@@ -51,7 +51,7 @@ const NavBar = () => {
                     src="https://via.placeholder.com/40"
                     alt="User Profile"
                 />
-                <button className="btn btn-info">Log in</button>
+                <button className="btn btn-info">Register</button>
             </div>
         </nav>
     );
