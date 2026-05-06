@@ -22,7 +22,7 @@ const NavBar = () => {
     ));
 
     return (
-        <nav className='flex justify-between items-center mx-auto p-3 border-b border-b-fuchsia-950 rounded-b-xl bg-cyan-950 text-white sticky top-0 z-50'>
+        <nav className='flex justify-between items-center mx-auto p-3 border-b border-b-fuchsia-950 rounded-b-xl bg-red-950 text-white sticky top-0 z-50'>
             <div className='flex items-center gap-2'>
 
                 <div onClick={() => setOpen(!open)} className='text-3xl md:hidden cursor-pointer'>
@@ -30,7 +30,7 @@ const NavBar = () => {
                 </div>
 
 
-                <ul className={`md:hidden absolute  duration-900 ease-in-out p-4 bg-cyan-950 border border-fuchsia-950 rounded-2xl w-48 
+                <ul className={`md:hidden absolute  duration-500 ease-in-out p-4 bg-red-950 border border-fuchsia-950 rounded-2xl w-48 
                     ${open ? 'top-16 opacity-100' : '-top-100 opacity-10'}`}>
                     {links}
                 </ul>
