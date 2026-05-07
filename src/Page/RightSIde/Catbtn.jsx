@@ -1,13 +1,14 @@
-import React from 'react';
+import { NavLink } from 'react-router';
+import  '../RightSIde/cat.css'
 
 
 const Catbtn = ({ data }) => {
     return (
 
 
-        <div className=''>
-            <h1 className='p-2 '>{data}</h1>
-        </div>
+        <h1 className='btn bg-amber-950'>
+            <NavLink to='/'>  {data}</NavLink>
+        </h1>
 
     );
 };

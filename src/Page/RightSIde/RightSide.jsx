@@ -1,6 +1,7 @@
 
 import { useEffect, useState } from 'react';
 import Catbtn from './Catbtn';
+import { NavLink } from 'react-router';
 
 const RightSide = () => {
     const [catagory, setCatgory] = useState([])
@@ -10,7 +11,10 @@ const RightSide = () => {
             .then(data => setCatgory(data));
     }, [])
     return (
-        <div className=''>
+        <div className='grid gap-4'>
+            <h1 className='btn bg-amber-950'>
+                <NavLink to='/'> All Home</NavLink>
+            </h1>
             {
                 catagory.map(data => <Catbtn
                     key={data.id}
