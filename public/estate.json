@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "card_id": 1,
         "segment_name": "Residential",
         "estate_title": "Residential Elite 1",
         "image": "/src/assets/realstate1.jpg",
@@ -21,6 +22,7 @@
     },
     {
         "id": 1,
+        "card_id": 2,
         "segment_name": "Residential",
         "estate_title": "Residential Elite 2",
         "image": "/src/assets/realstate2.jpg",
@@ -41,6 +43,7 @@
     },
     {
         "id": 1,
+        "card_id": 3,
         "segment_name": "Residential",
         "estate_title": "Residential Elite 3",
         "image": "/src/assets/realstate3.jpg",
@@ -61,6 +64,7 @@
     },
     {
         "id": 1,
+        "card_id": 4,
         "segment_name": "Residential",
         "estate_title": "Residential Elite 4",
         "image": "/src/assets/realstate1.jpg",
@@ -81,6 +85,7 @@
     },
     {
         "id": 1,
+        "card_id": 5,
         "segment_name": "Residential",
         "estate_title": "Residential Elite 5",
         "image": "/src/assets/realstate2.jpg",
@@ -101,6 +106,7 @@
     },
     {
         "id": 2,
+        "card_id": 6,
         "segment_name": "Commercial",
         "estate_title": "Commercial Elite 1",
         "image": "/src/assets/realstate3.jpg",
@@ -121,6 +127,7 @@
     },
     {
         "id": 2,
+        "card_id": 7,
         "segment_name": "Commercial",
         "estate_title": "Commercial Elite 2",
         "image": "/src/assets/realstate1.jpg",
@@ -141,6 +148,7 @@
     },
     {
         "id": 2,
+        "card_id": 8,
         "segment_name": "Commercial",
         "estate_title": "Commercial Elite 3",
         "image": "/src/assets/realstate2.jpg",
@@ -161,6 +169,7 @@
     },
     {
         "id": 2,
+        "card_id": 9,
         "segment_name": "Commercial",
         "estate_title": "Commercial Elite 4",
         "image": "/src/assets/realstate3.jpg",
@@ -181,6 +190,7 @@
     },
     {
         "id": 2,
+        "card_id": 10,
         "segment_name": "Commercial",
         "estate_title": "Commercial Elite 5",
         "image": "/src/assets/realstate1.jpg",
@@ -201,6 +211,7 @@
     },
     {
         "id": 3,
+        "card_id": 11,
         "segment_name": "Land",
         "estate_title": "Land Elite 1",
         "image": "/src/assets/realstate2.jpg",
@@ -219,6 +230,7 @@
     },
     {
         "id": 3,
+        "card_id": 12,
         "segment_name": "Land",
         "estate_title": "Land Elite 2",
         "image": "/src/assets/realstate1.jpg",
@@ -237,6 +249,7 @@
     },
     {
         "id": 3,
+        "card_id": 13,
         "segment_name": "Land",
         "estate_title": "Land Elite 3",
         "image": "/src/assets/realstate1.jpg",
@@ -255,6 +268,7 @@
     },
     {
         "id": 3,
+        "card_id": 14,
         "segment_name": "Land",
         "estate_title": "Land Elite 4",
         "image": "/src/assets/realstate1.jpg",
@@ -273,6 +287,7 @@
     },
     {
         "id": 3,
+        "card_id": 15,
         "segment_name": "Land",
         "estate_title": "Land Elite 5",
         "image": "/src/assets/realstate1.jpg",
@@ -291,6 +306,7 @@
     },
     {
         "id": 4,
+        "card_id": 16,
         "segment_name": "Industrial",
         "estate_title": "Industrial Elite 1",
         "image": "/src/assets/realstate1.jpg",
@@ -309,6 +325,7 @@
     },
     {
         "id": 4,
+        "card_id": 17,
         "segment_name": "Industrial",
         "estate_title": "Industrial Elite 2",
         "image": "/src/assets/realstate1.jpg",
@@ -327,6 +344,7 @@
     },
     {
         "id": 4,
+        "card_id": 18,
         "segment_name": "Industrial",
         "estate_title": "Industrial Elite 3",
         "image": "/src/assets/realstate1.jpg",
@@ -345,6 +363,7 @@
     },
     {
         "id": 4,
+        "card_id": 19,
         "segment_name": "Industrial",
         "estate_title": "Industrial Elite 4",
         "image": "/src/assets/realstate1.jpg",
@@ -363,6 +382,7 @@
     },
     {
         "id": 4,
+        "card_id": 20,
         "segment_name": "Industrial",
         "estate_title": "Industrial Elite 5",
         "image": "/src/assets/realstate1.jpg",
@@ -381,6 +401,7 @@
     },
     {
         "id": 5,
+        "card_id": 21,
         "segment_name": "Speciality",
         "estate_title": "Speciality Elite 1",
         "image": "https://example.com/images/speciality_1.jpg",
@@ -399,6 +420,7 @@
     },
     {
         "id": 5,
+        "card_id": 22,
         "segment_name": "Speciality",
         "estate_title": "Speciality Elite 2",
         "image": "/src/assets/realstate1.jpg",
@@ -417,6 +439,7 @@
     },
     {
         "id": 5,
+        "card_id": 23,
         "segment_name": "Speciality",
         "estate_title": "Speciality Elite 3",
         "image": "/src/assets/realstate1.jpg",
@@ -435,6 +458,7 @@
     },
     {
         "id": 5,
+        "card_id": 24,
         "segment_name": "Speciality",
         "estate_title": "Speciality Elite 4",
         "image": "/src/assets/realstate1.jpg",
@@ -453,6 +477,7 @@
     },
     {
         "id": 5,
+        "card_id": 25,
         "segment_name": "Speciality",
         "estate_title": "Speciality Elite 5",
         "image": "/src/assets/realstate1.jpg",
@@ -471,6 +496,7 @@
     },
     {
         "id": 6,
+        "card_id": 26,
         "segment_name": "Luxury",
         "estate_title": "Luxury Elite 1",
         "image": "/src/assets/realstate1.jpg",
@@ -491,6 +517,7 @@
     },
     {
         "id": 6,
+        "card_id": 27,
         "segment_name": "Luxury",
         "estate_title": "Luxury Elite 2",
         "image": "/src/assets/realstate1.jpg",
@@ -511,6 +538,7 @@
     },
     {
         "id": 6,
+        "card_id": 28,
         "segment_name": "Luxury",
         "estate_title": "Luxury Elite 3",
         "image": "/src/assets/realstate1.jpg",
@@ -531,6 +559,7 @@
     },
     {
         "id": 6,
+        "card_id": 29,
         "segment_name": "Luxury",
         "estate_title": "Luxury Elite 4",
         "image": "/src/assets/realstate1.jpg",
@@ -551,6 +580,7 @@
     },
     {
         "id": 6,
+        "card_id": 30,
         "segment_name": "Luxury",
         "estate_title": "Luxury Elite 5",
         "image": "/src/assets/realstate1.jpg",
@@ -571,6 +601,7 @@
     },
     {
         "id": 7,
+        "card_id": 31,
         "segment_name": "Government & Public",
         "estate_title": "Government & Public Elite 1",
         "image": "/src/assets/realstate1.jpg",
@@ -589,6 +620,7 @@
     },
     {
         "id": 7,
+        "card_id": 32,
         "segment_name": "Government & Public",
         "estate_title": "Government & Public Elite 2",
         "image": "/src/assets/realstate1.jpg",
@@ -607,6 +639,7 @@
     },
     {
         "id": 7,
+        "card_id": 33,
         "segment_name": "Government & Public",
         "estate_title": "Government & Public Elite 3",
         "image": "/src/assets/realstate1.jpg",
@@ -625,6 +658,7 @@
     },
     {
         "id": 7,
+        "card_id": 34,
         "segment_name": "Government & Public",
         "estate_title": "Government & Public Elite 4",
         "image": "/src/assets/realstate1.jpg",
@@ -643,6 +677,7 @@
     },
     {
         "id": 7,
+        "card_id": 35,
         "segment_name": "Government & Public",
         "estate_title": "Government & Public Elite 5",
         "image": "/src/assets/realstate1.jpg",
@@ -661,6 +696,7 @@
     },
     {
         "id": 8,
+        "card_id": 36,
         "segment_name": "Hospitality",
         "estate_title": "Hospitality Elite 1",
         "image": "/src/assets/realstate1.jpg",
@@ -681,6 +717,7 @@
     },
     {
         "id": 8,
+        "card_id": 37,
         "segment_name": "Hospitality",
         "estate_title": "Hospitality Elite 2",
         "image": "/src/assets/realstate1.jpg",
@@ -701,6 +738,7 @@
     },
     {
         "id": 8,
+        "card_id": 38,
         "segment_name": "Hospitality",
         "estate_title": "Hospitality Elite 3",
         "image": "/src/assets/realstate1.jpg",
@@ -721,6 +759,7 @@
     },
     {
         "id": 8,
+        "card_id": 39,
         "segment_name": "Hospitality",
         "estate_title": "Hospitality Elite 4",
         "image": "/src/assets/realstate1.jpg",
@@ -741,6 +780,7 @@
     },
     {
         "id": 8,
+        "card_id": 40,
         "segment_name": "Hospitality",
         "estate_title": "Hospitality Elite 5",
         "image": "/src/assets/realstate1.jpg",

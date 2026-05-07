@@ -1,10 +1,21 @@
 
 import './card.css'
+import AOS from 'aos'; // Make sure this is imported
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Card = ({ data }) => {
+    useEffect(() => {
+        setTimeout(() => {
+            AOS.init({
+                duration: 1000,
+                offset: 200,
+            });
+            AOS.refresh();
+        }, 100);
+    }, [])
     return (
-
-        <div className="property-card">
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center" className="property-card">
             <div className="card-image-wrapper">
                 <img src={data.image} alt={data.estate_title} className="card-image" />
                 <span className={`status-badge ${data.status}`}>
