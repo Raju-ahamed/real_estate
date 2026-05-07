@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { IoClose, IoMenu } from "react-icons/io5"; // Added IoMenu for a better look
+import { NavLink } from "react-router";
 
 
 
@@ -51,7 +52,7 @@ const NavBar = () => {
                     src="https://via.placeholder.com/40"
                     alt="User Profile"
                 />
-                <button className="btn btn-info">Register</button>
+                <NavLink to="/register"> <button className="btn btn-info">Register</button></NavLink>
             </div>
         </nav>
     );

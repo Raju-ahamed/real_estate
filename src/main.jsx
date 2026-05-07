@@ -5,6 +5,7 @@ import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import Root from './Root/Root';
 import Home from './Component/Home/Home';
+import Register from './Page/Register/Register';
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,9 @@ const router = createBrowserRouter([
       // {path:"/all", element}
     ]
   },
+  {
+    path: '/register', element: <Register></Register>
+  }
 ]);
 
 createRoot(document.getElementById('root')).render(
