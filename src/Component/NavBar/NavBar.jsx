@@ -1,12 +1,23 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { IoClose, IoMenu } from "react-icons/io5"; // Added IoMenu for a better look
 import { NavLink } from "react-router";
+import AuthContext from "../../Auth/AuthContext";
 
 
 
 const NavBar = () => {
+    const { user, userLogOut } = useContext(AuthContext);
     const [open, setOpen] = useState(false);
     const [navigation, setNavigation] = useState([]);
+    const handleLogOut = () => {
+        userLogOut().then(() => {
+            console.log("sgin Out sucsess")
+
+        }).catch(err => {
+            console.log(err)
+        }
+        );
+    }
 
     useEffect(() => {
         const loaderData = async () => {
@@ -52,7 +63,15 @@ const NavBar = () => {
                     src="https://via.placeholder.com/40"
                     alt="User Profile"
                 />
-                <NavLink to="/register"> <button className="btn btn-info">Register</button></NavLink>
+                {
+                    user ? (
+                        <button onClick={handleLogOut} className="btn btn-info">Log Out</button>
+                    ) : (
+                        <NavLink to="/register">
+                            <button className="btn btn-info">Register</button>
+                        </NavLink>
+                    )
+                }
             </div>
         </nav>
     );
