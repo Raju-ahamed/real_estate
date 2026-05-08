@@ -1,10 +1,13 @@
-const Login = () => {
+import { useContext } from "react";
+import AuthContext from "../../Auth/AuthContext";
 
+const Login = () => {
+    const { userLogin } = useContext(AuthContext)
     const handelLogin = (e) => {
         e.preventDefault();
         const email = e.target.email.value;
         const password = e.target.password.value;
-        console.log(email, password)
+        userLogin(email, password).then(data => console.log(data)).catch();
 
     }
     return (

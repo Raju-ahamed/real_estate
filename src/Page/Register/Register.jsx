@@ -3,8 +3,8 @@ import NavBar from "../../Component/NavBar/NavBar";
 import AuthContext from "../../Auth/AuthContext";
 
 const Register = () => {
-    const { user } = useContext(AuthContext)
-    console.log(user)
+    const { userRegister } = useContext(AuthContext)
+
     const handleRegister = e => {
         e.preventDefault();
         const name = e.target.name.value;
@@ -12,6 +12,13 @@ const Register = () => {
         const email = e.target.email.value;
         const password = e.target.password.value;
         console.log(name, photo, email, password);
+        userRegister(email, password).then((userCredential) => {
+            const user = userCredential.user;
+        })
+            .catch((error) => {
+                const errorCode = error.code;
+                const errorMessage = error.message;
+            });
     }
     return (
         <div>
