@@ -1,13 +1,13 @@
 import { NavLink } from 'react-router';
-import  '../RightSIde/cat.css'
+import '../RightSIde/cat.css'
 
 
-const Catbtn = ({ data }) => {
+const Catbtn = ({ data, id }) => {
     return (
 
 
         <h1 className='btn bg-amber-950'>
-            <NavLink to='/'>  {data}</NavLink>
+            <NavLink to={`/catagory/${id}`} >  {data}</NavLink>
         </h1>
 
     );

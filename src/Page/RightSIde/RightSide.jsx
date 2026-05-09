@@ -19,6 +19,7 @@ const RightSide = () => {
                 catagory.map(data => <Catbtn
                     key={data.id}
                     data={data.category}
+                    id={data.id}
                 ></Catbtn>)
             }
 

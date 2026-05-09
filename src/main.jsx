@@ -7,6 +7,8 @@ import Root from './Root/Root';
 import Home from './Component/Home/Home';
 import Register from './Page/Register/Register';
 import AuthProvider from './Auth/AuthProvider';
+import Details from './Page/Details/Details';
+import RightSide from './Page/RightSIde/RightSide';
 
 const router = createBrowserRouter([
   {
@@ -14,7 +16,12 @@ const router = createBrowserRouter([
     element: <Root />,
     children: [
       { path: "/", element: <Home /> },
-      // {path:"/all", element}
+      {
+        loader: () => fetch('/estate.json'),
+        path: "/catagory/:id",
+        element: <RightSide></RightSide>
+      },
+      { path: "/details", element: <Details></Details> }
     ]
   },
   {

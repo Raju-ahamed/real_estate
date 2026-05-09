@@ -2,8 +2,12 @@ import { useEffect, useState } from 'react';
 import './card.css'
 import Card from './Card';
 import 'aos/dist/aos.css';
+import { useLoaderData, useParams } from 'react-router';
 
 const LeftSide = () => {
+    // const  estate  = useLoaderData();
+    const {id} = useParams();
+    console.log()
     const [catgory, setCatagory] = useState([]);
     useEffect(() => {
         fetch('/estate.json')

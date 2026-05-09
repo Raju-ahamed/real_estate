@@ -32,11 +32,17 @@ const AuthProvider = ({ children }) => {
         setLoader(true);
         return signOut(auth);
     }
+    if (loader) return <div className="flex justify-center items-center min-h-screen">
+        <span className="loading loading-spinner loading-xl"></span>
+        <span className="loading loading-spinner loading-xl"></span>
+        <span className="loading loading-spinner loading-xl"></span>
+    </div>;
     const userInfo = {
         userLogin,
         userRegister,
         userLogOut,
         user,
+        loader
 
     }
     return (
